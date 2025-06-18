@@ -1,0 +1,19 @@
+echo "# Virtual Environment
+split_learning_env/
+venv/
+env/
+.env
+
+# Large datasets  
+test/
+data/
+dataset/
+
+# Python
+__pycache__/
+*.pyc
+*.so
+
+# Large files
+*.zip
+*.tar.gz" > .gitignore
